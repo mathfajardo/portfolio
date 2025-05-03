@@ -47,7 +47,7 @@
 
     .botoes {
         display: flex;
-        justify-content: center; /* centraliza os botões no eixo horizontal */
+        justify-content: center;
         gap: 40px;
         margin-top: 20px;
     }
@@ -64,23 +64,23 @@
         display: inline-block;
         background-color: #00C724;
         color: black;
-        padding: 10px 40px; /* Ajuste de padding para deixar mais equilibrado */
+        padding: 10px 40px; 
         border-radius: 5px;
         font-weight: bold;
         transition: all 0.3s ease;
-        box-shadow: 0 6px 15px rgba(0, 199, 36, 0.4); /* Sombra suave */
-        transform: translateY(0); /* Posição inicial */
+        box-shadow: 0 6px 15px rgba(0, 199, 36, 0.4); 
+        transform: translateY(0); 
     }
 
     .link a:hover {
         background-color: #00a91e;
         transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(0, 199, 36, 0.6); /* Sombra mais intensa */
+        box-shadow: 0 8px 25px rgba(0, 199, 36, 0.6); 
     }
 
     .link a:active {
-        transform: scale(0.98); /* Leve redução no tamanho ao clicar */
-        box-shadow: 0 4px 10px rgba(0, 199, 36, 0.3); /* Sombra normal quando pressionado */
+        transform: scale(0.98);
+        box-shadow: 0 4px 10px rgba(0, 199, 36, 0.3); 
     }
 
     .logo {
